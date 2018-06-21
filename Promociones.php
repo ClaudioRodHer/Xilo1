@@ -35,10 +35,10 @@ and open the template in the editor.
             <div class="container-fluid">
 
                 <ul class="nav navbar-nav">
-                    <li class="active"><a href="Home.php">Inicio</a></li>
+                    <li><a href="Home.php">Inicio</a></li>
                     <li><a href="Cartelera.php">Cartelera</a></li>
                     <li><a href="Dulceria.php">Dulceria</a></li>
-                    <li><a href="Promociones.php">Promociones</a></li>
+                    <li class="active"><a href="Promociones.php">Promociones</a></li>
                     <li><a href= "Boletos.php">Boletos</a></li>
                     <li><a href="Historia.php">Historia</a></li>
                 </ul>
