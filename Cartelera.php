@@ -19,9 +19,14 @@ and open the template in the editor.
 
         <LINK REL=StyleSheet HREF="DarkTheme.css" TYPE="text/css" MEDI#6526A1#6526A1#6526A1A=screen>
         <style type="text/css">
+            @font-face{
+                font-family: 'Futura-Bold', arial;
+                src: url("http://allfont.es/allfont.css?fonts=futura-bold");
+            }
             body {
                 color: black;
-                background-color: #FF43C6 
+                background-color: #FF43C6;
+                font-family: 'Futura-Bold';
             }
             nav{
 
@@ -30,13 +35,13 @@ and open the template in the editor.
 
     </head>
     <body>
-        
+
         <nav class="navbar navbar-inverse">
             <div class="container-fluid">
 
                 <ul class="nav navbar-nav">
-                    <li class="active"><a href="Home.php">Inicio</a></li>
-                    <li><a href="Cartelera.php">Cartelera</a></li>
+                    <li><a href="Home.php">Inicio</a></li>
+                    <li class="active"><a href="Cartelera.php">Cartelera</a></li>
                     <li><a href="Dulceria.php">Dulceria</a></li>
                     <li><a href="Promociones.php">Promociones</a></li>
                     <li><a href= "Boletos.php">Boletos</a></li>
@@ -50,10 +55,118 @@ and open the template in the editor.
 
             </div>
         </nav> 
-  <!-- --------------------------AQUI EMPIEZA EL CODIGO DE LA PAGINA----------------------- -->         
-        
-        <?php
-        echo "Soy la cartelera"
-        ?>
+        <!-- --------------------------AQUI EMPIEZA EL CODIGO DE LA PAGINA----------------------- -->         
+        <ul class="nav nav-tabs">
+            <li class="active"><a data-toggle="tab" href="#home" style="color: #000000" style="font-family: futura">En este día</a></li>
+            <li><a data-toggle="tab" href="#menu1" style="color: #000000">En esta semana</a></li>
+            <li><a data-toggle="tab" href="#menu2" style="color: #000000">En este mes</a></li>
+        </ul>
+
+        <div class="tab-content">
+            <div id="home" class="tab-pane fade in active">
+
+                <div class="container">
+                    <div class="table-responsive">          
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th >
+                                        <img src="thorR.jpg" width="90%">
+                                    </th>
+                                    <th>
+                                        <img src="opSombra.jpg" width="100%">
+                                    </th>
+                                    <th>
+                                        <img src="neSolos.jpg" width="100%">
+                                    </th>
+                                </tr>
+                            </thead>
+                        </table>
+                    </div>
+                </div>
+
+
+            </div>
+            <div id="menu1" class="tab-pane fade">
+
+                <div class="container">
+                    <div class="table-responsive">          
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th >
+                                        <img src="thorR.jpg" style="width:100%;">
+                                    </th>
+                                    <th>
+                                        <img src="opSombra.jpg" style="width:100%;">
+                                    </th>
+                                    <th>
+                                        <img src="neSolos.jpg" style="width:100%;">
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <th>
+                                        <img src="thorR.jpg" style="width:100%;">
+                                    </th>
+                                    <th>
+                                        <img src="opSombra.jpg" style="width:100%;">
+                                    </th>
+                                    <th >
+                                        <img src="neSolos.jpg" style="width:100%;">
+                                    </th>
+                                </tr>
+                            </thead>
+                        </table>
+                    </div>
+                </div>
+
+            </div>
+            <div id="menu2" class="tab-pane fade">
+
+                <div class="container">
+                    <div class="table-responsive">          
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th >
+                                        <img src="thorR.jpg" style="width:100%;">
+                                    </th>
+                                    <th>
+                                        <img src="opSombra.jpg" style="width:100%;">
+                                    </th>
+                                    <th>
+                                        <img src="neSolos.jpg" style="width:100%;">
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <th>
+                                        <img src="thorR.jpg" style="width:100%;">
+                                    </th>
+                                    <th>
+                                        <img src="opSombra.jpg" style="width:100%;">
+                                    </th>
+                                    <th >
+                                        <img src="neSolos.jpg" style="width:100%;">
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <th>
+                                        <img src="thorR.jpg" style="width:100%;">
+                                    </th>
+                                    <th>
+                                        <img src="opSombra.jpg" style="width:100%;">
+                                    </th>
+                                    <th >
+                                        <img src="neSolos.jpg" style="width:100%;">
+                                    </th>
+                                </tr>
+                            </thead>
+                        </table>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
     </body>
 </html>

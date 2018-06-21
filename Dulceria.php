@@ -65,7 +65,7 @@ and open the template in the editor.
             <div>
                 <center>
                     <label>Palomitas</label>&nbsp; &nbsp;
-                    <img src="C:\Users\Misael\Documents\lucy\INSTALACION JAVA FX\cine\Nueva carpeta\palomitas.jpg">
+                    <img src="recursos/palomitas.jpg" style="width:20%">
                 </center>
             </div>
 
@@ -74,7 +74,7 @@ and open the template in the editor.
             <div>
                 <center>
                     <label>Gomitas</label>&nbsp; &nbsp;
-                    <img src="C:\Users\Misael\Documents\lucy\INSTALACION JAVA FX\cine\Nueva carpeta\gomitas.jpg">
+                    <img src="recursos/gomitas.jpg" style="width:20%">
                 </center>
             </div>
 
@@ -83,7 +83,7 @@ and open the template in the editor.
             <div>
                 <center>
                     <label>Chocolates</label>&nbsp; &nbsp;
-                    <img src="C:\Users\Misael\Documents\lucy\INSTALACION JAVA FX\cine\Nueva carpeta\chocolate.jpg">
+                    <img src="recursos/chocolates.jpg" style="width:20%">
                 </center>
             </div>
 
@@ -91,8 +91,8 @@ and open the template in the editor.
 
             <div>
                 <center>
-                    <label>Nachos</label>&nbsp; &nbsp;
-                    <img src="C:\Users\Misael\Documents\lucy\INSTALACION JAVA FX\cine\Nueva carpeta\nachos.jpg">
+                    <label>Nachos    </label>&nbsp; &nbsp;
+                    <img src="recursos/nachos.jpg" style="width:20%">
                 </center>
             </div> 
         </th>
@@ -104,7 +104,7 @@ and open the template in the editor.
         <div>
             <center>
                 <label>Coca-Cola</label>&nbsp; &nbsp;
-                <img src="C:\Users\Misael\Documents\lucy\INSTALACION JAVA FX\cine\Nueva carpeta\coca.png">
+                <img src="recursos/coca.jpg" style="width:20%">
             </center>
         </div>
 
