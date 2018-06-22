@@ -19,18 +19,24 @@ and open the template in the editor.
 
         <LINK REL=StyleSheet HREF="DarkTheme.css" TYPE="text/css" MEDI#6526A1#6526A1#6526A1A=screen>
         <style type="text/css">
+            @font-face{
+                font-family: 'Futura-Bold', arial;
+                src: url("http://allfont.es/allfont.css?fonts=futura-bold");
+            }
             body {
                 color: black;
                 background-color: #FF43C6 
             }
-            nav{
-
-            }
         </style>
-
+        <script>
+            $(document).ready(function () {
+                $('[data-toggle="popover"]').mouseout();
+                $("#mostrarmodal").modal("show");
+            });
+        </script>
     </head>
     <body>
-        
+
         <nav class="navbar navbar-inverse">
             <div class="container-fluid">
 
@@ -43,17 +49,15 @@ and open the template in the editor.
                     <li><a href="Historia.php">Historia</a></li>
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#"><span class="fa fa-facebook"></span> </a></li>
-                    <li><a href="#"><span class="fa fa-instagram"></span></a></li>
+                    <li><a href="https://www.facebook.com/CineTeatroXilotzin/" target="_blank">
+                            <span class="fa fa-facebook" ></span> </a></li>
+                    <li><a href="https://www.instagram.com/explore/locations/268154316896875/cine-teatro-xilotzin/" target="_blank">
+                            <span class="fa fa-instagram" ></span></a></li>
                 </ul>
-
-
             </div>
         </nav> 
-<!-- --------------------------AQUI EMPIEZA EL CODIGO DE LA PAGINA----------------------- -->        
+        <!-- --------------------------AQUI EMPIEZA EL CODIGO DE LA PAGINA----------------------- -->        
+
         
-        <?php
-        echo "soy las promociones";
-        ?>
     </body>
 </html>

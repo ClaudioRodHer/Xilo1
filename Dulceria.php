@@ -46,8 +46,10 @@
                     <li><a href="Historia.php">Historia</a></li>
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#"><span class="fa fa-facebook"></span> </a></li>
-                    <li><a href="#"><span class="fa fa-instagram"></span></a></li>
+                    <li><a href="https://www.facebook.com/CineTeatroXilotzin/" target="_blank">
+                            <span class="fa fa-facebook" ></span> </a></li>
+                    <li><a href="https://www.instagram.com/explore/locations/268154316896875/cine-teatro-xilotzin/" target="_blank">
+                            <span class="fa fa-instagram" ></span></a></li>
                 </ul>
 
 
@@ -55,19 +57,19 @@
         </nav> 
 
         <!-- --------------------------AQUI EMPIEZA EL CODIGO DE LA PAGINA----------------------- -->       
-        
+
         <div class="container">
             <div class="table-responsive">          
                 <table class="table">
                     <thead>
-                    <tr>
-                    <th><center style='font-size: 35px'>
-                    <b>Dulces</b>
+                        <tr>
+                            <th><center style='font-size: 35px'>
+                        <b>Dulces</b>
                     </center>
                     </th>
                     <th>
                     <center style='font-size: 35px'>
-                    <b>Bebidas</b>
+                        <b>Bebidas</b>
                     </center>
                     </th>
                     </tr>
@@ -142,7 +144,7 @@
                     </td>
                     </tr>
                     <tr>
-                            <td>
+                        <td>
                     <center>
                         <label>Palomitas
                         </label>&nbsp; &nbsp;

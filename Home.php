@@ -43,7 +43,8 @@
                         <li><a href= "Boletos.php">Boletos</a></li>
                         <li><a href="Historia.php">Historia</a></li>
                         <ul class="nav navbar-nav navbar-right">
-                            <li><a href="https://www.facebook.com/CineTeatroXilotzin/" target="_blank"><span class="fa fa-facebook" ></span> </a></li>
+                            <li><a href="https://www.facebook.com/CineTeatroXilotzin/" target="_blank">
+                                    <span class="fa fa-facebook" ></span> </a></li>
                             <li><a href="https://www.instagram.com/explore/locations/268154316896875/cine-teatro-xilotzin/" target="_blank">
                                     <span class="fa fa-instagram" ></span></a></li>
                         </ul>
