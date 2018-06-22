@@ -71,15 +71,15 @@
             <!-- Wrapper for slides -->
             <div class="carousel-inner">
                 <div class="item active">
-                    <img src="cine3.jpg" alt="Estreno!!" class="img-responsive" style="width:70%;">
+                    <center> <img src="cine3.jpg" alt="Estreno!!" class="img-responsive" style="width:70%;"></center>
                 </div>
 
                 <div class="item">
-                    <img src="cine2.jpg" alt="Aprovecha" class="img-responsive" style="width:40%;">
+                    <center><img src="cine2.jpg" alt="Aprovecha" class="img-responsive" style="width:40%;"></center>
                 </div>
 
                 <div class="item">
-                    <img src="cine1.jpg" alt="Ven y Festeja con nosotros" class="img-responsive" style="width:70%;">
+                    <center> <img src="cine1.jpg" alt="Ven y Festeja con nosotros" class="img-responsive" style="width:70%;"></center>
                 </div>
             </div>
             <!-- Left and right controls -->
